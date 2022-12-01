@@ -89,7 +89,8 @@ strong {
   padding: 30px;
 }
 
-#epicode {
+iframe {
+  border-radius: 20px;
 }
 
 #linktool {
@@ -104,6 +105,28 @@ strong {
 
 caption {
   margin-bottom: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+thead tr {
+  background-color: #36b2ce;
+  color: white;
+}
+
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:last-of-type {
+  border-bottom: 2px solid rgba(176, 176, 255, 0.491);
+}
+
+th,
+td {
+  padding: 12px 15px;
+  vertical-align: bottom;
+  text-align: center;
 }
 
 /* FORM */
