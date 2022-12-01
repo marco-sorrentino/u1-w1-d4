@@ -109,9 +109,8 @@ caption {
   font-style: italic;
 }
 
-thead tr {
-  background-color: #36b2ce;
-  color: white;
+tbody tr:nth-of-type(even) {
+  background-color: rgba(215, 215, 215, 0.574);
 }
 
 tbody tr {
