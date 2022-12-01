@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/font-awesome.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="bgpage">
+      <header class="bgblu">
+        <div class="logotesto">
+          <img id="logo" src="./assets/img/logo.svg" alt="" />
+          <p>EPICODE - IL BLOG DEI DEVELOPERS</p>
+          <div class="link">
+            <a href="#">HOME</a> <br />
+            <a href="#">ARTICOLI</a> <br />
+            <a href="#">LAVORA CON NOI</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="bgbianco">
+        <div class="articolopost">
+          <p id="templ">Come creare un template per i post</p>
+          <p class="greytext">Di Mario Rossi - pubblicato il 25/10/2020</p>
+          <p class="paragrafi">
+            La prima cosa da fare è suddividere in blocchi la pagina,
+            indentificando le <strong>parti comuni</strong> da applicare a tutte
+            le pagine.
+          </p>
+          <p class="paragrafi">Le varie aree saranno quindi suddivide in:</p>
+          <div class="elencoul paragrafi">
+            <ul>
+              <li>
+                Contenuti di intestazione del tag <code>&ltheader&gt</code>
+              </li>
+              <li>
+                Contenuti centrali variabili del tag
+                <code>&ltmain&gt</code> (corpo principale)
+              </li>
+              <li>
+                Contenuti di fine pagina contenuti, da inserire nel tag
+                <code>&ltfooter&gt</code>
+              </li>
+            </ul>
+          </div>
+
+          <div class="articoloformatt">
+            <h3 class="paragrafi">Formattazione del codice</h3>
+            <p class="paragrafi">
+              Il testo dell'articolo dovrà essere formattato per identificare
+              tutte le parti da <strong>selezionare con i CSS.</strong> Perciò i
+              passi saranno:
+            </p>
+            <div class="elencoul paragrafi">
+              <ol>
+                <li>
+                  Progettare su carta il markup finale, assegnando ad ogni
+                  specifico testo il tag appropriato
+                </li>
+                <li>
+                  Scivere HTML dei tag esterni a quelli interni e dall'alto
+                  verso il basso
+                </li>
+                <li>Applicare gli stili CSS</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <div class="articolotabelle">
+          <p class="paragrafi">
+            L'applicazione di stili CSS è cresciuta negli ultimi anni fino a
+            raggiungere la diiffusione pressoché totale:
+          </p>
+
+          <table class="tabella">
+            <caption>
+              Diffusione dei CSS
+            </caption>
+            <div class="tablehead">
+              <tr>
+                <th>Anno</th>
+                <th>% di utilizzo</th>
+                <th>Supporto browsers</th>
+              </tr>
+            </div>
+            <tr>
+              <td>2000</td>
+              <td>20%</td>
+              <td>17%</td>
+            </tr>
+            <tr>
+              <td>2002</td>
+              <td>35%</td>
+              <td>22%</td>
+            </tr>
+            <tr>
+              <td>2004</td>
+              <td>45%</td>
+              <td>42%</td>
+            </tr>
+            <tr>
+              <td>2008</td>
+              <td>80%</td>
+              <td>51%</td>
+            </tr>
+            <tr>
+              <td>2012</td>
+              <td>100%</td>
+              <td>76%</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="videoepicode">
+          <p class="paragrafi">
+            Un test di validazione potrà essere fatto tramite il
+            <a id="linktool" href="https://jigsaw.w3.org/css-validator/"
+              >tool online</a
+            >
+            dedicato allo scopo. Una volta ottimizzato il tutto, avremo
+            raggiunto il nostro obiettivo ed essere stati dei veri developers
+            come loro:
+          </p>
+          <iframe
+            id="epicode"
+            width="380"
+            height="315"
+            src="https://www.youtube.com/embed/gd4tvsiG024"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div class="novit">
+          <div class="bgrey">
+            <h3 id="news">Novità</h3>
+            <p>
+              Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
+              nostra newsletter
+            </p>
+            <form action="">
+              <input type="email" placeholder="Inserisci l'email" />
+              <button>Iscriviti!</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="articolicorr">
+          <h3 style="text-align: center">ARTICOLI CORRELLATI</h3>
+          <div class="bgrey">
+            <a href="#">Validare il codice HTML</a>
+            <p>Categoria: develop</p>
+            <div class="rightdate">
+            <p>Data: 18-9-2020</p> </div>
+        
+          </div>
+        </div>
+
+        <div class="articolicorr">
+          <div class="bgrey">
+            <a href="#">Validare il codice HTML</a>
+            <p>Categoria: develop</p>
+            <div class="rightdate">
+            <p>Data: 18-9-2020</p></div>
+          </div>
+        </div>
+
+        <div class="articolicorr">
+          <div class="bgrey">
+            <a href="#">Validare il codice HTML</a>
+            <p>Categoria: develop</p>
+            <div class="rightdate">
+            <p>Data: 18-9-2020</p></div>
+          </div>
+        </div>
+
+      </div>
+
+      <footer class="end">
+        <p>Blog epicode &#169 2021</p>
+        <address>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233. <a href="mailto:indirizzo@email.com">info@epicode.school</a> </address>
+    </footer>
+    </div>
+  </body>
+</html>

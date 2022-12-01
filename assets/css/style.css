@@ -1,0 +1,149 @@
+/* IMPOSTAZIONI GENERALI */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&family=Poppins:wght@200;400&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bgpage {
+  background-image: url(../img/sfondo.png);
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+/* HEADER */
+
+.bgblu {
+  width: 450px;
+  margin: 30px auto;
+  text-align: center;
+  padding: 40px 0;
+  color: white;
+  background: linear-gradient(360deg, #186b81 0%, #36b2ce 100%);
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.44);
+  font-size: 20px;
+}
+
+#logo {
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.link {
+  margin-top: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* MAIN */
+
+.bgbianco {
+  width: 450px;
+  margin: 30px auto;
+  background-color: white;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.44);
+}
+
+.articolopost {
+  padding: 30px;
+}
+
+.elencoul {
+  margin-left: 30px;
+}
+
+#templ {
+  font-size: 35px;
+}
+
+.greytext {
+  color: grey;
+  font-size: 20px;
+  margin: 20px 0px;
+}
+
+.paragrafi {
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+strong {
+  color: rgb(192, 0, 192);
+  font-weight: 800;
+}
+
+.articolotabelle {
+  padding: 30px;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+.videoepicode {
+  padding: 30px;
+}
+
+#epicode {
+}
+
+#linktool {
+  color: black;
+}
+
+/* TABELLE */
+
+.tabella {
+  width: 410px;
+}
+
+caption {
+  margin-bottom: 20px;
+}
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+.novit {
+  padding: 30px;
+  text-align: center;
+}
+
+.bgrey {
+  background-color: #d4d4d4;
+  padding: 30px 0px;
+}
+
+.articolicorr {
+  padding: 30px;
+}
+
+.rightdate {
+  float: right;
+}
+
+/* FOOTER */
+
+.end {
+  width: 450px;
+  margin: 30px auto;
+  background: linear-gradient(180deg, #05586a 0%, #313737 100%);
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.44);
+  color: white;
+  text-align: center;
+  padding: 40px 2px;
+}
+
+address {
+  margin-top: 30px;
+}
+
+footer a {
+  color: violet;
+}
