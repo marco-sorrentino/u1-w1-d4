@@ -178,6 +178,14 @@ button {
   float: right;
 }
 
+.marginp {
+  margin-top: 10px;
+}
+
+.articolicorr .bgrey a {
+  color: #05586a;
+}
+
 /* FOOTER */
 
 .end {
